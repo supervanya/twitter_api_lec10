@@ -38,8 +38,9 @@ base_authorization_url = 'https://api.twitter.com/oauth/authorize'
 # verifier = input('Please input the verifier')
 
 authorization_url = oauth.authorization_url(base_authorization_url)
-print ('Please go here and authorize,', authorization_url)
+# print ('Please go here and authorize,', authorization_url)
 webbrowser.open(authorization_url)
+# verifier = "2103943"
 verifier = input('Paste the verification code here: ')
 
 
